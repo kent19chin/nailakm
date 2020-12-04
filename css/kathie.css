@@ -22,13 +22,15 @@ nav li{
 	padding-top: 15px;
 }
 nav ul:first-of-type {
-	margin-left: 60%;
+	margin-left: 56%;
 }
 .form-inline{
 	padding-top: 20px;
 	padding-right: 30px;
 }
-
+.form-inline li{
+	font-size: 20px;
+}
 /* Slider */
 .slick-next:before, .slick-prev:before {
     color: red !important;
