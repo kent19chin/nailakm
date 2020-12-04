@@ -1,0 +1,79 @@
+body{	
+}
+
+.bg{
+	width: 100%;
+}
+/* nav declarations*/
+.active{
+	background-color: #F7D7C9;
+	;
+}
+
+.navbar-brand img {
+	height: 50px; 
+	width: auto;
+	margin-left: 50px;
+}
+ nav li img {
+	 margin-top: 11px;
+ }
+
+nav li{
+	list-style-type:none;
+	margin-left: 20px;
+}
+
+.white {
+	color: #ffffff;
+}
+.title {
+position: absolute;
+left: 48.86%;
+
+top: 36%;
+bottom: 63.09%;
+font-family: Arial;
+font-style: normal;
+font-weight: bold;
+font-size: 70px;
+line-height: 80px;
+letter-spacing: 0.1cm;
+/* identical to box height */
+
+color: #000000;
+}
+
+.subtitle {
+	position: absolute;
+	width: 422px;
+	height: 99px;
+	left: 60.86%;
+	top: 50%;
+	
+	font-family: Helvetica Neue;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 50px;
+	line-height: 60px;
+	letter-spacing: 0.08em;
+	
+	color: #73BFC7;	
+}
+
+.description {
+	position: absolute;
+width: 580px;
+height: 189px;
+left: 50%;
+top: 73%;
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 0.08em;
+
+color: #000000;
+}

@@ -1,0 +1,124 @@
+body{	
+}
+
+/* nav declarations*/
+nav .active{
+	background-color: #F7D7C9;
+}
+
+.navbar-brand img {
+	height: 50px; 
+	width: auto;
+	margin-left: 50px;
+}
+nav li img {
+	 margin-top: 11px;
+ }
+
+nav li{
+	list-style-type:none;
+	margin-left: 20px;
+}
+
+/* Cover Page */
+.cover_left {
+	float: left;
+	position: relative;
+	width: 50%;
+	height: 85vh;
+	background: url(../images/kathie/cover1.png) no-repeat center center; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+.cover_right {
+	float: left;
+	width: 50%;
+	height: 85vh;
+	object-fit: cover;
+	background: url(../images/kathie/cover2.jpg) no-repeat center center; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+	  background-size: cover;
+}
+
+.slick-next:before, .slick-prev:before {
+    color: red !important;
+}
+
+.slick-next {
+	right: 25px !important;
+	}
+
+	.slick-prev {
+	left: 25px !important ;
+	z-index: 999;}
+
+.past_header {
+position: relative;
+left:10%;
+top: 15%;
+font-family: HelveticaNeue;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 60px;
+
+color: #FFFFFF;
+}
+
+.past_subheader{
+
+position: relative;
+left: 10%;
+top: 20%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 150.4%;
+/* or 30px */
+
+color: #FFFFFF;
+}
+
+/* Past Page */
+.past{
+	float: left;
+	width: 50%;
+	height: 85vh;
+	object-fit: cover;
+	background: url(../images/bg/bg1.png) no-repeat center center; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+	  background-size: cover;
+}
+
+.present{
+	float: left;
+	width: 50%;
+	height: 85vh;
+	object-fit: cover;
+	background: url(../images/bg/bg2.png) no-repeat center center; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+	  background-size: cover;
+}
+
+.future{
+	float: left;
+	width: 50%;
+	height: 85vh;
+	object-fit: cover;
+	background: url(../images/bg/bg3.png) no-repeat center center; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+	  background-size: cover;
+}

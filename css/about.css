@@ -1,0 +1,55 @@
+/* nav declarations*/
+.active{
+	background-color: #F7D7C9;
+}
+
+.navbar-brand img {
+	height: 50px; 
+	width: auto;
+	margin-left: 50px;
+}
+nav li img {
+	 margin-top: 11px;
+ }
+
+nav li{
+	list-style-type:none;
+	margin-left: 20px;
+}
+
+/* body */
+.header {
+position: absolute;
+left: 8.96%;
+right: 57.78%;
+top: 18.55%;
+bottom: 58.5%;
+
+font-family: Helvetica;
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 57px;
+letter-spacing: 0.08em;
+
+color: #000000;
+}
+
+.subheader{
+position: absolute;
+left: 42.22%;
+right: 8.47%;
+top: 54.69%;
+bottom: 9.18%;
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: 300;
+font-size: 25px;
+line-height: 30px;
+letter-spacing: 0.08em;
+
+color: #000000;
+
+}
+
