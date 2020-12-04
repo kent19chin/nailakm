@@ -51,15 +51,21 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item disabled">
+          <img src="images/line.png" alt="">
+        </li>
         <li class="nav-item dropdown active">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
             Stories
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item active" href="#">Denise</a>
-            <a class="dropdown-item" href="#">Jerome</a>
-            <a class="dropdown-item" href="#">Kathie</a>
+            <a class="dropdown-item active" href="denise.html">Denise</a>
+            <a class="dropdown-item" href="jerome.html">Jerome</a>
+            <a class="dropdown-item" href="kathie.html">Kathie</a>
           </div>
         </li>
         <li class="nav-item disabled">
@@ -68,12 +74,8 @@
         <li class="nav-item ">
           <a class="nav-link" href="about.html">About Us</a>
         </li>
-        <li class="nav-item disabled">
-          <img src="images/line.png" alt="">
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
+
+
       </ul>
       <ul class="form-inline">
         <li>
@@ -111,6 +113,7 @@
       </div>
     </div>
     <div class="past">
+      <p class="title">A Story in the Past</p>
       <div class="container">
         <div class="row">
           <div class="col-6">
@@ -142,20 +145,22 @@
       </div>
     </div>
     <div class="present">
+      <p class="title">Present Day Story</p>
       <div class="container">
         <div class="row">
           <div class="col-4">
-            <img src="images/denise/organic.jpg" alt="" style="width: 100%">
+            <img class="present_img" src="images/denise/organic.jpg" alt="">
           </div>
           <div class="col-4">
-            <img src="images/denise/soup.jpg" alt="" style="width: 100%">
+            <img class="present_img" src="images/denise/soup.jpg" alt="">
           </div>
           <div class="col-4">
-            <img src="images/denise/vegan.jpg" alt="" style="width: 100%">
+            <img class="present_img" src="images/denise/vegan.jpg" alt="">
           </div>
         </div>
         <div class="row">
-          <p>Denise has changed her diet after going to graduate school and starting her own family. She tried to cook
+          <p class="words">Denise has changed her diet after going to graduate school and starting her own family. She
+            tried to cook
             healthier and only ate organic food. After watching documentaries about healthy eating and people around her
             went vegan, Denise decided to become vegan as well. Denise calls herself a flexible vegan because she would
             eat meat and use butter in her meal occasionally. In her current diet, she tries to buy everything organic,
@@ -164,11 +169,13 @@
       </div>
     </div>
     <div class="future">
+      <p class="title">A Hope for the Future</p>
       <div class="container">
         <div class="row">
           <div id="player" class="col-6 left"></div>
-          <div class="col-6 right">
-            <p>During the time we are facing the COVID-19 disease, Denise and her husband are not able to see some of
+          <div class="col-6">
+            <p class="right">During the time we are facing the COVID-19 disease, Denise and her husband are not able to
+              see some of
               their family members and enjoy a wonderful dinner with them at Christmas. After a few interviews with
               Denise, we found that she loves cooking a lot. We film this short video, trying to stand on her view. In
               the video, we cook “soul food” and taste it, to indicate the picture when Denise cooks her family’s
@@ -271,6 +278,25 @@
 
 
 
-  <footer> &copy; Copyright 2020 Foodie </footer>
+  <footer>
+    <div class="footer">
+      <img class="footer_logo" src="images/whitelogo.png" alt="">
+      <p>Through the Lens of Food</p>
+      <div class="social">
+        <ul class="social_icons">
+          <li>
+            <span class="ti-instagram"></span>
+          </li>
+          <li>
+            <span class="ti-twitter-alt"></span>
+          </li>
+          <li>
+            <span class="ti-facebook"></span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <p> &copy; Copyright 2020 Foodie </p>
+  </footer>
 
 </html>
