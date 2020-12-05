@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Laravel</title>
+  <title>Through The Lens of Food</title>
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -22,14 +22,22 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-5SRQ7BY99X"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
+    gtag('config', 'G-5SRQ7BY99X');
+  </script>
 
 </head>
 
 <body>
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo"></a>
+    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -86,24 +94,40 @@
       in their life. The goal is to combat the idea that the African American community has a monolithic voice and each
       experience their food culture differently.</p>
   </div>
+  <div class="scroll">
+    <a href="#denise">Scroll Down for Stories <span class="ti-angle-double-down"></span></a>
+  </div>
+  <div class="container">
+    <div class="row" id="denise">
+      <div class="col-6">
+        <p>Denise Harrison</p>
+        <a href="denise.html"> <button type="button"> Read More </button></a>
+      </div>
+      <div class="col-6">
+        <img src="images/denise/cover1.png" alt="Denise">
+      </div>
+    </div>
+    <div class="row" id="jerome">
+      <div class="col-6">
+        <img src="images/jerome/cover_1.png" alt="Jerome">
+      </div>
+      <div class="col-6">
+        <p>Jerome Patton</p>
+        <a href="jerome.html"> <button>Read More</button> </a>
+      </div>
+    </div>
+    <div class="row" id="kathie">
+      <div class="col-6">
+        <p>Kathie Brooks</p>
+        <a href="kathie.html"><button>Read More</button></a>
+      </div>
+      <div class="col-6">
+        <img src="images/kathie/cover1.png" alt="Kathie">
+      </div>
+    </div>
+  </div>
 
-  <a href="">Scroll Down for Stories <span class="ti-angle-double-down"></span></a>
-  <div class="denise">
-    <p>Denise Harrison</p>
-    <button>Read More</button>
-    <img src="images/denise/cover1.png" alt="">
-  </div>
-  <div class="jerome">
-    <img src="images/jerome/cover_1.png" alt="">
-    <p>Jerome Patton</p>
-    <button>Read More</button>
 
-  </div>
-  <div class="kathie">
-    <p>Kathie Brooks</p>
-    <button>Read More</button>
-    <img src="images/kathie/cover1.png" alt="">
-  </div>
 
   <footer>
     <div class="footer">
@@ -125,5 +149,6 @@
     </div>
     <p> &copy; Copyright 2020 Foodie </p>
   </footer>
+</body>
 
 </html>
