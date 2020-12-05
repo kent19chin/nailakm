@@ -109,12 +109,12 @@ color: #73BFC7;
 	max-width: 100% !important;
 }
 .row {
-	height: 500px;
+	height: 500px !important;
 }
 
 /* Denise */
 #denise {
-	background: #A63D37;
+	background: #A63D37 !important;
 }
 
 #denise p {
@@ -150,7 +150,7 @@ top: 35%;
 }
 /* Jerome */
 #jerome {
-	background: #FFE27B;
+	background: #FFE27B !important;
 }
 
 #jerome p {
@@ -186,7 +186,7 @@ top: 35%;
 }
 /* Kathie */
 #kathie {
-	background: #73BFC7;
+	background: #73BFC7 !important;
 	overflow: hidden;
 }
 
